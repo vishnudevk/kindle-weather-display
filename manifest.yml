@@ -1,8 +1,5 @@
+---
 applications:
-- path: .
-  memory: 128M
-  instances: 1
-  domain: mybluemix.net
-  name: kindle-weather-display
-  host: kindle-weather-display
-  disk_quota: 1024M
+ - name: GetStartedPython
+   random-route: true
+   memory: 128M
