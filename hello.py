@@ -19,7 +19,7 @@ port = int(os.getenv('PORT', 8080))
 
 @app.route('/')
 def home():
-    return render_template('weather-script-output.svg')
+    return render_template('weather-script-output.png')
 
 # /* Endpoint to greet and add a new visitor to database.
 # * Send a POST request to localhost:8080/api/visitors with body
